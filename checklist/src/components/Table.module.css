@@ -1,0 +1,50 @@
+.App_Table_table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.App_Table_tr {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.App_Table_tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+.App_Table_tr:nth-child(even) {
+    background-color: gray;
+}
+
+.App_Table_td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.App_Table_td_1 {
+  color: green;
+  font-weight: bold;
+}
+
+.App_Table_td_3 {
+    color: red;
+    font-weight: bold;
+  }
+  .App_Table_td_2 {
+    color: orange;
+    font-weight: bold;
+  }
+  .App_Table_td_4 {
+    color: purple;
+    font-weight: bold;
+  }
+
+.App_Form_Search {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}

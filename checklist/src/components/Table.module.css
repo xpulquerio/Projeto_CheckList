@@ -15,7 +15,7 @@
 }
 
 .App_Table_tr:nth-child(even) {
-    background-color: gray;
+    background-color: rgb(163, 161, 161);
 }
 
 .App_Table_td {
@@ -26,21 +26,25 @@
 
 }
 .App_Table_td_1 {
-  color: green;
+  
   font-weight: bold;
+  border: 2px green solid;
 }
 
 .App_Table_td_3 {
-    color: red;
+    
     font-weight: bold;
+    border: 2px red solid;
   }
   .App_Table_td_2 {
-    color: orange;
+    
     font-weight: bold;
+    border: 2px orange solid;
   }
   .App_Table_td_4 {
-    color: purple;
+    
     font-weight: bold;
+    border: 2px purple solid;
   }
 
 .App_Form_Search {

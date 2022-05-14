@@ -2,7 +2,9 @@ import styles from './Table.module.css';
 import { useState } from 'react';
 
 const Table = ({ files }) => {
+    const [id, setId] = useState("");;
     const [name, setName] = useState("");
+    const [status, setStatus] = useState("");
     const [type, setType] = useState("");
 
     const chooseStyleStatus = (x) => {
@@ -16,7 +18,13 @@ const Table = ({ files }) => {
         }
         return status;
     }
-    const listItens = files.filter(file => (file.name.toLowerCase().indexOf(name) !== -1) && (file.type.toLowerCase().indexOf(type) !== -1)).map((file) =>
+    const listItens = () => files.filter(file =>
+        (file.id.toString().indexOf(id) !== -1) &&
+        (file.name.toLowerCase().indexOf(name.toLowerCase()) !== -1) &&
+        (file.status.toLowerCase().indexOf(status.toLowerCase()) !== -1) &&
+        (file.type.toLowerCase().indexOf(type.toLowerCase()) !== -1)
+
+    ).map((file) =>
         <tr className={styles.App_Table_tr}>
             <td className={styles.App_Table_td}>{file.id}</td>
             <td className={styles.App_Table_td} style={{ textAlign: "justify", fontWeight: "bold" }}>{file.name}</td>
@@ -25,13 +33,23 @@ const Table = ({ files }) => {
         </tr>
     )
 
+    const handleId = (e) => {
+        //e.preventDefault();
+        setId(e.target.value);
+    }
+
     const handleName = (e) => {
-        e.preventDefault();
+        //e.preventDefault();
         setName(e.target.value);
     }
 
+    const handleStatus = (e) => {
+       // e.preventDefault();
+        setStatus(e.target.value);
+    }
+
     const handleType = (e) => {
-        e.preventDefault();
+       // e.preventDefault();
         setType(e.target.value);
     }
 
@@ -41,7 +59,16 @@ const Table = ({ files }) => {
             <table className={styles.App_Table_table}>
                 <thead>
                     <tr>
-                        <th className={styles.App_Table_th}>ID</th>
+                        <th className={styles.App_Table_th}>
+                            <form>
+                                <div>
+                                    <label>
+                                        <span></span>
+                                        <input className={styles.App_Form_Search} type="text" name="ID" placeholder="ID" onChange={handleId} value={id} />
+                                    </label>
+                                </div>
+                            </form>
+                        </th>
                         <th className={styles.App_Table_th}>
                             <form>
                                 <div>
@@ -52,7 +79,20 @@ const Table = ({ files }) => {
                                 </div>
                             </form>
                         </th>
-                        <th className={styles.App_Table_th}>STATUS</th>
+                        <th className={styles.App_Table_th}>
+                            <form>
+                                <div>
+                                    <label>
+                                        <select name="Status" onChange={handleStatus} value={status}>
+                                            <option value="">Todos</option>
+                                            <option value="Assistido">Assistido</option>
+                                            <option value="Assistindo">Assistindo</option>
+                                            <option value="Para assistir">Para assistir</option>
+                                        </select>
+                                    </label>
+                                </div>
+                            </form>
+                        </th>
                         <th className={styles.App_Table_th}>
                             <form>
                                 <div>
@@ -66,7 +106,7 @@ const Table = ({ files }) => {
                     </tr>
                 </thead>
                 <tbody>
-                    {listItens}
+                    {listItens()}
                 </tbody>
                 <tfoot>
 

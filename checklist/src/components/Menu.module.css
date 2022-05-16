@@ -1,18 +1,14 @@
-.App_Menu_ul{
+ul {
     overflow: hidden;
 }
 
-.App_Menu_li{
-    background-color: lightcyan;
+li {
+    background-color: lightslategray;
     display: inline-block;
-    padding: 1%;
+    padding: 5px 20px 5px 20px;
     margin-left: 5px;
     margin-right: 5px;
-    border: 2px black outset;
-    border-radius: 5px;
-
-}
-
-.App_Menu_li_on {
-    border: 2px black inset;
+    border: 1px black outset;
+    border-radius: 20px;
+    color: #fff;
 }

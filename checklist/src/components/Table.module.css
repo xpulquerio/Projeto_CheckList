@@ -1,15 +1,14 @@
-.App_Table_table {
+table {
   margin: auto;
-  width: 70%;
+  width: 100%;
+
 }
 
-.App_Table_tr {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
+.App_Table_HeadAndFoot {
+  font-weight: bold;
+  color: #fff;
+  background-color: black;
 }
-
 
 .App_Table_tr:nth-child(odd) {
   background-color: lightgray;
@@ -19,7 +18,7 @@
   background-color: rgb(163, 161, 161);
 }
 
-.App_Table_td {
+td {
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 10px;
@@ -28,31 +27,25 @@
 
 .App_Table_td_1 {
   font-weight: bold;
-  border: 2px green solid;
+  background-color: green;
 }
 
 .App_Table_td_3 {
   font-weight: bold;
-  border: 2px red solid;
+  background-color: red;
 }
 
 .App_Table_td_2 {
   font-weight: bold;
-  border: 2px orange solid;
+  background-color: orange;
 }
 
 .App_Table_td_4 {
   font-weight: bold;
-  border: 2px purple solid;
+  background-color: purple;
 }
 
-input {
-  border: hidden;
-  width: 100%;
-}
-
-input:focus {
-  box-shadow: 0 0 0 0;
-  outline: 0;
-  background-color: lightgray;
+.searchContainer  {
+  padding: 20px 0px 20px 0px;
+ 
 }

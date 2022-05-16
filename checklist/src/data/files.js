@@ -14,6 +14,10 @@ export const files = [
     { id: 13, name: "O plano perfeito", type: "Filme", status: "Assistido" },
     { id: 14, name: "A origem", type: "Filme", status: "Assistido" },
     { id: 15, name: "Eu, eu mesmo & Irene", type: "Filme", status: "Assistido" },
-    { id: 16, name: "Hotel Transilvânia 2", type: "Filme", status: "Assistido" }
+    { id: 16, name: "Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu", type: "Anime", status: "Parado" },
+    { id: 17, name: "Anjos e Demônios", type: "Livro", status: "Lendo" },
+    { id: 18, name: "Iracema", type: "Livro", status: "Parado" },
+    { id: 19, name: "Assim falou Zaratustra", type: "Livro", status: "Parado" },
+    { id: 20, name: "Stop saying you're fine", type: "Livro", status: "Para ler" }
 ]
 ;

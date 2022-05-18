@@ -3,7 +3,7 @@ ul {
 }
 
 li {
-    background-color: lightslategray;
+    background-color: gray;
     display: inline-block;
     padding: 5px 20px 5px 20px;
     margin-left: 5px;
@@ -11,4 +11,12 @@ li {
     border: 1px black outset;
     border-radius: 20px;
     color: #fff;
+    font-weight: bold;
+}
+
+li:hover {
+    background-color: black;
+    transition: 102;
+    cursor: pointer;
+    transition: 0.5s;
 }

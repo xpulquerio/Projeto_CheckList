@@ -8,23 +8,31 @@ import { files } from './data/files.js';
 //components
 import Menu from './components/Menu';
 import Table from './components/Table';
+import Panel from './components/Panel';
+import About from './components/About';
+
 
 
 
 function App() {
-  const [menuAtivo, setNemuAtivo] = useState(1);
+  const [activeMenu, setActiveMenu] = useState(1);
   //const files = useState(files);
   //console.log(files);
+  function changeMenu(x){
+    setActiveMenu(x)
+  };
 
   return (
     <div className="App">
       <header className="">
       </header>
       <div className="App-menu">
-        <Menu />
+        <Menu activeMenu={activeMenu} changeMenu={changeMenu}/>
       </div>
       <div className="App-body">
-        <Table files={files} />
+        {activeMenu === 1 && <Table files={files} />}
+        {activeMenu === 2 && <About />}
+        {activeMenu === 3 && <Panel />}
       </div>
     </div>
   );

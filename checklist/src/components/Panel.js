@@ -1,6 +1,10 @@
+import "./Panel.css"
+
 const Panel = () => {
     return (
-        <div class="teste">Panel</div>
+        <div className="App_panel">
+            
+        </div>
     )
 }
 

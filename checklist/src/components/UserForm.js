@@ -1,20 +1,17 @@
-import React from 'react'
+import "./UserForm.css"
+import { useState } from 'react'
 
 const UserForm = () => {
-    // 6 - Controlled Inputs
-    // 3 - Gerenciamento de dados;
-    const [name, setName] = useState(user ? user.name : '');
-    const [email, setEmail] = useState(user ? user.email : '');
-    const [descricao, setDescricao] = useState (user ? user.descricao : '');
-    const [role, setRole] = useState (user ? user.role : ' ');
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [descricao, setDescricao] = useState('');
+    const [role, setRole] = useState('');
 
     const handleName = (e) => {
         setName(e.target.value);
     }
     const handleSubmit = (event) => {
         event.preventDefault(); //Não recarrega a página depois de enviar o formulário
-        console.log("Enviando o formulário");
-        console.log (name, email, descricao, role);
 
         //Validação
         //Envio
@@ -23,25 +20,34 @@ const UserForm = () => {
         setName('');
         setEmail('');
         setDescricao('');
-        setRole(' ');}
+        setRole(' ');
+    }
 
-  return (
-    <div>
-            <form onSubmit={}>
-              
+    return (
+        <div className="App_form">
+            <form onSubmit>
                 <div>
                     <label>
-                        <span>E-mail</span>
-                        {/* Simplificação de manipulação de State */}
-                        <input type="email" name="email" placeholder="Digite seu email aqui" value={email}></input>
+                        <span>User </span>
+                        
+                        <input type="text" name="user" placeholder=""></input>
                     </label>
                 </div>
-                <input type="submit" value="Enviar"/>
-                <input type="submit" value="Limpar"/>
-                <a href="./">Esqueceu a senha ?</a>
+                <div>
+                    <label>
+                        <span>Password </span>
+                        <input type="password" name="password" placeholder=""></input>
+                    </label>
+                </div>
+                <div>
+                    <input type="submit" value="Enviar" />
+                    <input type="submit" value="Limpar" /></div>
+                <div>
+                    <a href="./">Forgot your password ?</a>
+                </div>
             </form>
         </div>
-  )
+    )
 }
 
 export default UserForm

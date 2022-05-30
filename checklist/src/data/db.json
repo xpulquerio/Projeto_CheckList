@@ -1,0 +1,353 @@
+[
+    {
+      "id": 1,
+      "title": "How I Met Your Motter",
+      "author": "",
+      "type": "Série",
+      "situation": "Assistido",
+      "ultimo_visto": "T09xE24",
+      "ultima_atualizacao": "28/02/2020"
+    },
+    {
+      "id": 2,
+      "title": "Friends",
+      "author": "",
+      "type": "Série",
+      "situation": "Assistido",
+      "ultimo_visto": "T10xE17",
+      "ultima_atualizacao": "28/02/2020"
+    },
+    {
+      "id": 3,
+      "title": "Peaky Blinders: Sangue, Apostas e Navalhas",
+      "author": "",
+      "type": "Série",
+      "situation": "Assistido",
+      "ultimo_visto": "T05xE06",
+      "ultima_atualizacao": "10/01/2021"
+    },
+    {
+      "id": 4,
+      "title": "Gossip Girl",
+      "author": "",
+      "type": "Série",
+      "situation": "Parado",
+      "ultimo_visto": "T3xE17",
+      "ultima_atualizacao": "28/02/2020"
+    },
+    {
+      "id": 5,
+      "title": "The end of the fucking world",
+      "author": "",
+      "type": "Série",
+      "situation": "Parado",
+      "ultimo_visto": "T1xE08",
+      "ultima_atualizacao": "28/11/2020"
+    },
+    {
+      "id": 6,
+      "title": "Supergirl",
+      "author": "",
+      "type": "Série",
+      "situation": "Parado",
+      "ultimo_visto": "T05xE09",
+      "ultima_atualizacao": "08/03/2021"
+    },
+    {
+      "id": 7,
+      "title": "Sense8",
+      "author": "",
+      "type": "Série",
+      "situation": "Parado",
+      "ultimo_visto": "T1xE12",
+      "ultima_atualizacao": "28/02/2020"
+    },
+    {
+      "id": 8,
+      "title": "Mako Mermaids: An H20 Adventure",
+      "author": "Jonathan M. Shiff",
+      "type": "Série",
+      "situation": "Parado",
+      "ultimo_visto": "T1xE26",
+      "ultima_atualizacao": "28/02/2020"
+    },
+    {
+      "id": 9,
+      "title": "Altered Carbon",
+      "author": "",
+      "type": "Série",
+      "situation": "Parado",
+      "ultimo_visto": "T1xE10",
+      "ultima_atualizacao": "28/02/2020"
+    },
+    {
+      "id": 10,
+      "title": "Everything sucks!",
+      "author": "",
+      "type": "Série",
+      "situation": "Assistido",
+      "ultimo_visto": "T01xE10",
+      "ultima_atualizacao": "28/02/2020"
+    },
+    {
+      "id": 11,
+      "title": "Riverdale",
+      "author": "",
+      "type": "Série",
+      "situation": "Parado",
+      "ultimo_visto": "T3xE1",
+      "ultima_atualizacao": "28/02/2020"
+    },
+    {
+      "id": 12,
+      "title": "The good doctor",
+      "author": "",
+      "type": "Série",
+      "situation": "Assistido",
+      "ultimo_visto": "T03xE20",
+      "ultima_atualizacao": "28/11/2020"
+    },
+    {
+      "id": 13,
+      "title": "The walking dead",
+      "author": "Frank Darabont",
+      "type": "Série",
+      "situation": "Parado",
+      "ultimo_visto": "T4xE3",
+      "ultima_atualizacao": "26/04/2021"
+    },
+    {
+      "id": 14,
+      "title": "Wu Assassins",
+      "author": "",
+      "type": "Série",
+      "situation": "Parado",
+      "ultimo_visto": "T1xE5",
+      "ultima_atualizacao": "29/02/2020"
+    },
+    {
+      "id": 15,
+      "title": "Legends of Tomorrow",
+      "author": "",
+      "type": "Série",
+      "situation": "Parado",
+      "ultimo_visto": "T01xE16",
+      "ultima_atualizacao": "09/03/2021"
+    },
+    {
+      "id": 16,
+      "title": "Sex education",
+      "author": "",
+      "type": "Série",
+      "situation": "Assistido",
+      "ultimo_visto": "T03xE08",
+      "ultima_atualizacao": "16/12/2021"
+    },
+    {
+      "id": 17,
+      "title": "Shooter",
+      "author": "",
+      "type": "Série",
+      "situation": "Parado",
+      "ultimo_visto": "T01xE10",
+      "ultima_atualizacao": "29/02/2020"
+    },
+    {
+      "id": 18,
+      "title": "Suits",
+      "author": "",
+      "type": "Série",
+      "situation": "Assistindo",
+      "ultimo_visto": "T8xE13",
+      "ultima_atualizacao": "02/01/2022"
+    },
+    {
+      "id": 19,
+      "title": "Teen Wolf",
+      "author": "",
+      "type": "Série",
+      "situation": "Assistindo",
+      "ultimo_visto": "T05XE20",
+      "ultima_atualizacao": "17/02/2021"
+    },
+    {
+      "id": 20,
+      "title": "Punho de Ferro",
+      "author": "",
+      "type": "Série",
+      "situation": "Parado",
+      "ultimo_visto": "T1xE13",
+      "ultima_atualizacao": "01/03/2020"
+    },
+    {
+      "id": 21,
+      "title": "Hawaii 5-0",
+      "author": "",
+      "type": "Série",
+      "situation": "Parado",
+      "ultimo_visto": "T1xE01",
+      "ultima_atualizacao": "15/04/2020"
+    },
+    {
+      "id": 22,
+      "title": "Outer Banks",
+      "author": "",
+      "type": "Série",
+      "situation": "Parado",
+      "ultimo_visto": "T02xE02",
+      "ultima_atualizacao": "12/12/2021"
+    },
+    {
+      "id": 23,
+      "title": "Vikings",
+      "author": "",
+      "type": "Série",
+      "situation": "Parado",
+      "ultimo_visto": "T01xE10",
+      "ultima_atualizacao": "28/11/2020"
+    },
+    {
+      "id": 24,
+      "title": "The Boys",
+      "author": "",
+      "type": "Série",
+      "situation": "Assistido",
+      "ultimo_visto": "T02XE08",
+      "ultima_atualizacao": "12/02/2021"
+    },
+    {
+      "id": 25,
+      "title": "The vampire diaries",
+      "author": "",
+      "type": "Série",
+      "situation": "Assistindo",
+      "ultimo_visto": "T02XEx",
+      "ultima_atualizacao": "17/02/2021"
+    },
+    {
+      "id": 26,
+      "title": "Smallville - As aventuras do superboy",
+      "author": "",
+      "type": "Série",
+      "situation": "Assistido",
+      "ultimo_visto": "T10XE22",
+      "ultima_atualizacao": "15/02/2021"
+    },
+    {
+      "id": 27,
+      "title": "Arrow",
+      "author": "",
+      "type": "Série",
+      "situation": "Parado",
+      "ultimo_visto": "T07XE22",
+      "ultima_atualizacao": "22/05/2021"
+    },
+    {
+      "id": 28,
+      "title": "The Flash",
+      "author": "",
+      "type": "Série",
+      "situation": "Parado",
+      "ultimo_visto": "T05XE09",
+      "ultima_atualizacao": "09/03/2021"
+    },
+    {
+      "id": 29,
+      "title": "BoJack Horseman",
+      "author": "",
+      "type": "Série",
+      "situation": "Parado",
+      "ultimo_visto": "T01XE01",
+      "ultima_atualizacao": "09/03/2021"
+    },
+    {
+      "id": 30,
+      "title": "The Ranch",
+      "author": "",
+      "type": "Série",
+      "situation": "Parado",
+      "ultimo_visto": "T01XE01",
+      "ultima_atualizacao": "09/03/2021"
+    },
+    {
+      "id": 31,
+      "title": "Grey's Anatomy",
+      "author": "",
+      "type": "Série",
+      "situation": "Assistido",
+      "ultimo_visto": "T17xE17",
+      "ultima_atualizacao": "18/12/2021"
+    },
+    {
+      "id": 32,
+      "title": "The Witcher",
+      "author": "",
+      "type": "Série",
+      "situation": "Assistido",
+      "ultimo_visto": "T02xE08",
+      "ultima_atualizacao": "23/12/2021"
+    },
+    {
+      "id": 33,
+      "title": "Blokyn 99",
+      "author": "",
+      "type": "Série",
+      "situation": "Assistindo",
+      "ultimo_visto": "T07XE09",
+      "ultima_atualizacao": "16/05/2022"
+    },
+    {
+      "id": 34,
+      "title": "Cobra Kai",
+      "author": "",
+      "type": "Série",
+      "situation": "Assistido",
+      "ultimo_visto": "T03xE10",
+      "ultima_atualizacao": "14/07/2021"
+    },
+    {
+      "id": 35,
+      "title": "Upload",
+      "author": "",
+      "type": "Série",
+      "situation": "Assistido",
+      "ultimo_visto": "T1xE10",
+      "ultima_atualizacao": "13/02/2022"
+    },
+    {
+      "id": 36,
+      "title": "Lucifer",
+      "author": "",
+      "type": "Série",
+      "situation": "Assistindo",
+      "ultimo_visto": "T05xE02",
+      "ultima_atualizacao": "08/01/2021"
+    },
+    {
+      "id": 37,
+      "title": "Fate: A Saga Winx",
+      "author": "",
+      "type": "Série",
+      "situation": "Assistido",
+      "ultimo_visto": "T01X06",
+      "ultima_atualizacao": "16/05/2022"
+    },
+    {
+      "id": 38,
+      "title": "Modern Family",
+      "author": "",
+      "type": "Série",
+      "situation": "Assistindo",
+      "ultimo_visto": "T01XE05",
+      "ultima_atualizacao": "06/05/2022"
+    },
+    {
+      "id": 39,
+      "title": "Pretty Smart",
+      "author": "",
+      "type": "Série",
+      "situation": "Assistindo",
+      "ultimo_visto": "T01XE02",
+      "ultima_atualizacao": "07/05/2022"
+    }
+  ]

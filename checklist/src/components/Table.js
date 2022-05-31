@@ -3,17 +3,18 @@ import { useState } from 'react';
 
 const Table = ({ files }) => {
     const [id, setId] = useState("");;
-    const [name, setName] = useState("");
-    const [status, setStatus] = useState('');
+    const [title, setTitle] = useState("");
+    const [situation, setSituation] = useState('');
     const [type, setType] = useState("");
-    const situation = [
+    const status = [
         { id: 1, value: '', name: 'Todos' },
         { id: 2, value: 'Assistido', name: 'Assistido' },
-        { id: 3, value: 'Lendo', name: 'Lendo' },
-        { id: 4, value: 'Lido', name: 'Lido' },
-        { id: 5, value: 'Para assistir', name: 'Para assistir' },
-        { id: 6, value: 'Para ler', name: 'Para ler' },
-        { id: 7, value: 'Parado', name: 'Parado' }]
+        { id: 3, value: 'Assistindo', name: 'Assistindo' },
+        { id: 4, value: 'Lendo', name: 'Lendo' },
+        { id: 5, value: 'Lido', name: 'Lido' },
+        { id: 6, value: 'Para assistir', name: 'Para assistir' },
+        { id: 7, value: 'Para ler', name: 'Para ler' },
+        { id: 8, value: 'Parado', name: 'Parado' }]
 
     const chooseStyleStatus = (x) => {
         var status = styles.App_Table_td_3;
@@ -28,16 +29,17 @@ const Table = ({ files }) => {
     }
     const listItens = () => files.filter(file =>
         (file.id.toString().indexOf(id) !== -1) &&
-        (file.name.toLowerCase().indexOf(name.toLowerCase()) !== -1) &&
-        (file.status.toLowerCase().indexOf(status.toLowerCase()) !== -1) &&
+        (file.title.toLowerCase().indexOf(title.toLowerCase()) !== -1) &&
+        (file.situation.toLowerCase().indexOf(situation.toLowerCase()) !== -1) &&
         (file.type.toLowerCase().indexOf(type.toLowerCase()) !== -1)
 
     ).map((file) =>
         <tr className={styles.App_Table_tr}>
             <td className={styles.App_Table_td}>{file.id}</td>
-            <td className={styles.App_Table_td} style={{ textAlign: "justify", fontWeight: "bold" }}>{file.name}</td>
-            <td className={(chooseStyleStatus(file.status))}>{file.status}</td>
+            <td className={styles.App_Table_td} style={{ textAlign: "justify", fontWeight: "bold" }}>{file.title}</td>
+            <td className={(chooseStyleStatus(file.situation))}>{file.situation}</td>
             <td className={styles.App_Table_td}>{file.type}</td>
+            <td className={styles.App_Table_td}>{file.ultima_atualizacao}</td>
         </tr>
     )
 
@@ -46,14 +48,14 @@ const Table = ({ files }) => {
         setId(e.target.value);
     }
 
-    const handleName = (e) => {
+    const handleTitle = (e) => {
         //e.preventDefault();
-        setName(e.target.value);
+        setTitle(e.target.value);
     }
 
-    const handleStatus = (e) => {
+    const handleSituation = (e) => {
         // e.preventDefault();
-        setStatus(e.target.value);
+        setSituation(e.target.value);
     }
 
     const handleType = (e) => {
@@ -82,7 +84,7 @@ const Table = ({ files }) => {
                                     <div>
                                         <label>
                                             <span>NOME: </span>
-                                            <input type="text" name="Título" placeholder="Título" onChange={handleName} value={name} />
+                                            <input type="text" name="Título" placeholder="Título" onChange={handleTitle} value={title} />
                                         </label>
                                     </div>
                                 </form>
@@ -91,8 +93,8 @@ const Table = ({ files }) => {
                                 <form>
                                     <div>
                                         <label>
-                                            <select name="Status" onChange={handleStatus} value={status}>
-                                                {situation.map((option) => (
+                                            <select name="situation" onChange={handleSituation} value={situation}>
+                                                {status.map((option) => (
                                                     <option key={option.id} value={option.value}>{option.name}</option>
                                                 ))
                                                 }
@@ -124,6 +126,7 @@ const Table = ({ files }) => {
                             <th>TÍTULO</th>
                             <th>STATUS</th>
                             <th>TIPO</th>
+                            <th>ÚLTIMA ATUALIZAÇÃO</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -133,6 +136,7 @@ const Table = ({ files }) => {
                         <tr>
                             <td>Resultados encontrados</td>
                             <td>{listItens().length}</td>
+                            <td></td>
                             <td></td>
                             <td></td>
                         </tr>
